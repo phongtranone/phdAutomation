@@ -23,7 +23,7 @@ jobs:
 
     steps:
       - checkout
-      - run: Write-Host 'Hello, Windows'
+      - run: echo "hello world"
       # Download and cache dependencies
       - restore_cache:
           keys:
