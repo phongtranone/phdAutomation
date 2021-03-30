@@ -1,6 +1,7 @@
 package PhdUIAutomation;
 
 public class PageObject {
-	String locator = "";
+	//String locator = "";
+	String textBoxLocator = "//div";
 
 }
